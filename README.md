@@ -20,3 +20,16 @@ This Python script simplifies the organization of your JavaScript/React project 
 
 3. Open a terminal and run the script by executing the following command:
 
+```CLI
+   python3 generate_index.py
+```
+
+1. The script will automatically create index.js files in the "assets" and "components" folders, populating them with import statements for the respective files.
+
+## Configuration
+You can customize the script's behavior by modifying the configuration options in the script itself. Some configurable options include:
+
+Take user input (if your assets and components directories are stored other than the path in the script).
+File types to include/exclude.
+Excluded files or directories.
+Output file name (default: `index.js`).
