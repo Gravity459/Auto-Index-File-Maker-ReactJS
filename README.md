@@ -38,18 +38,19 @@ Output file name (default: `index.js`).
 
 After running the script, your project directory structure will look like this:
 
-project-root/
-   src/
-     assets/
-       icon1.svg
-       icon2.svg
-       image1.png
-       index.js (automatically generated)
-     components/
-       Button.js
-       Card.js
-       Header.js
-       index.js (automatically generated)
-  generate_index.py
-
+```css
+   project-root/
+      src/
+        assets/
+          icon1.svg
+          icon2.svg
+          image1.png
+          index.js (automatically generated)
+        components/
+          Button.js
+          Card.js
+          Header.js
+          index.js (automatically generated)
+     generate_index.py
+```
 
