@@ -20,7 +20,7 @@ This Python script simplifies the organization of your JavaScript/React project 
 
 3. Open a terminal and run the script by executing the following command:
 
-```CLI
+```bash
    python3 generate_index.py
 ```
 
@@ -33,3 +33,23 @@ Take user input (if your assets and components directories are stored other than
 File types to include/exclude.
 Excluded files or directories.
 Output file name (default: `index.js`).
+
+## Example
+
+After running the script, your project directory structure will look like this:
+
+project-root/
+   src/
+     assets/
+       icon1.svg
+       icon2.svg
+       image1.png
+       index.js (automatically generated)
+     components/
+       Button.js
+       Card.js
+       Header.js
+       index.js (automatically generated)
+  generate_index.py
+
+
