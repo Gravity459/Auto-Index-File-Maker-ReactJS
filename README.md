@@ -54,3 +54,26 @@ After running the script, your project directory structure will look like this:
      generate_index.py
 ```
 
+In `assets/index.js`:
+
+```js
+   import icon1 from './icon1.svg';
+   import icon2 from './icon2.svg';
+   import image1 from './image1.png';
+   
+   export { icon1, icon2, image1 };
+```
+
+In `components/index.js`:
+
+```js
+   import Button from './Button';
+   import Card from './Card';
+   import Header from './Header';
+   
+   export { Button, Card, Header };
+```
+
+## Contributing
+
+Feel free to contribute to this script by creating pull requests or suggesting improvements. Your feedback is valuable!
