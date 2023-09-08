@@ -29,7 +29,7 @@ def createIndexFileForAssets():
             camelCased = convertToCamelCase(file)
             final_list.append(camelCased)
             # print(f"import {camelCased} from '{file_directory}/{file}';\n")
-            f.write(f"import {camelCased} from '{file_directory}/{file}';\n")
+            f.write(f"import {camelCased} from './{file}';\n")
 
         export_string = "export { " + ", ".join(final_list) + " }"
         f.write(f"\n{export_string}")
